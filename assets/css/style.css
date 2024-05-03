@@ -109,7 +109,7 @@ nav{
     position: absolute;
     top: -15px;
     right: -20px;
-    font-size: 5em;
+    font-size: 100%;
     color: var(--text-color-second);
 }
 .nav-menu, .nav_menu_list{
@@ -120,6 +120,7 @@ nav{
     position: relative;
     
 }
+
 .nav-link{
     text-decoration: none;
     color: var(--text-color-second);
@@ -133,6 +134,7 @@ nav{
 .nav-menu-btn i{
     font-size: 28px;
     cursor: pointer;
+    display: block; /* Ensure the button is displayed properly */
 }
 .active-link{
     position: relative;
@@ -713,6 +715,12 @@ footer{
 }
 
 /* ----- MEDIA QUERY == 540px / RESPONSIVE ----- */
+/* Hide menu button on larger screens */
+@media screen and (min-width: 600px) {
+    .nav-menu-btn {
+        display: none;
+    }
+}
 
 @media only screen and (max-width: 540px){
     .featured-name{

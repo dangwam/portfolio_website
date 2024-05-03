@@ -1,3 +1,10 @@
+function toggleNavMenu() {
+  var navMenu = document.querySelector('.nav_menu_list');
+  navMenu.classList.toggle('active');
+}
+
+
+
 /* ----- NAVIGATION BAR FUNCTION ----- */
 function myMenuFunction(){
   var menuBtn = document.getElementById("myNavMenu");
