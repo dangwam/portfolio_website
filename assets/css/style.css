@@ -166,6 +166,7 @@ nav{
     display: flex;
     height: 100vh;
     min-height: 700px;
+    overflow: hidden;
     /*border: 1px solid #59D5E0; /* Adjust border style, color, and thickness as needed */
     /*padding: 5px; /* Optional padding for spacing within the box */
    /*background-color: #665e5e;*/
