@@ -25,12 +25,11 @@
   gtag('config', 'G-TF1E5Z969L');
 </script>
 <body>
-   <div class="container">
+    <div class="container">
     <!-- --------------- HEADER --------------- -->
       <nav id="header">
         <div class="nav-logo">
             <p class="nav-name">🎡 Mayank Dangwal</p>
-            
         </div>
         <div class="nav-menu" id="myNavMenu">
             <ul class="nav_menu_list">
@@ -55,11 +54,27 @@
         <div >
                 <a href="./assets/images/mayank_resume.pdf" download="resume.pdf" button class="btn">CV </a>
         </div>
+      
         
-        <div class="nav-menu-btn">
-            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+      </nav>
+
+      <nav id="hamburger-nav">
+        <div class="logo">Mayank Dangwal</div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          </div>
         </div>
       </nav>
+
+
     </div>
 
 
