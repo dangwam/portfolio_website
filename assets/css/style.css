@@ -227,7 +227,7 @@ nav{
     transform: rotate(45deg) translate(10px, 5px);
   }
   
-  .hamburger-icon.open span:nth-child(2) {
+  .hamburger-icon.open span:nth-child(3) {
     opacity: 0;
   }
   
@@ -263,8 +263,6 @@ nav{
     /*border: 1px solid #59D5E0; /* Adjust border style, color, and thickness as needed */
     /*padding: 5px; /* Optional padding for spacing within the box */
    /*background-color: #665e5e;*/
-      
-   
 }
 
 /* ----- FEATURED TEXT BOX ----- */
@@ -279,8 +277,8 @@ nav{
     padding-left: 40px;
 }
 .featured-text-card span{
-    background: var(--third-color);
-    color: var(--color-white);
+    /*background: var(--third-color);*/
+    /*color: var(--color-white);*/
     padding: 3px 8px;
     font-size: 12px;
     border-radius: 5px;
@@ -289,24 +287,24 @@ nav{
     font-size: 20px;
     font-weight: 600;
     color: var(--text-color-second);
-    margin-block: 20px;
+    margin-block: 50px;
 }
 .typedText{
     text-transform: capitalize;
     color: var(--text-color-third);
 }
 .featured-text-info{
-    font-size: 15px;
+    font-size: 14px;
     margin-bottom: 30px;
     color: var(--text-color-second);
 }
 .featured-text-btn{
     display: flex;
     gap: 20px;
-    
+    width: 220px;
+        
 }
 .featured-text-btn>.blue-btn{
-    background: var(--first-color);
     color: var(--color-white);
 }
 .featured-text-btn>.blue-btn:hover{
@@ -335,7 +333,7 @@ nav{
 
 /* ----- FEATURED IMAGE BOX ----- */
 .custom-image {
-    max-width: 100%; /* Ensure the image doesn't exceed the box width */
+   /* max-width: 100%; /* Ensure the image doesn't exceed the box width */
     height: auto; /* Maintain the aspect ratio */
     display: block; /* Ensure proper spacing */
     margin: 0 auto; /* Center the image horizontally */
@@ -356,7 +354,7 @@ nav{
     margin-right: 5%;
     width: 380px;
     height: 380px;
-    /*border-radius: 80% 90% 90% 80%;*/
+    border-radius: 80% 90% 90% 80%;
     border-radius: 10%;
     overflow: hidden;
     max-width: 100%;
@@ -378,22 +376,22 @@ nav{
 .scroll-btn{
    position: absolute;
    bottom: 0;
-   left: 50%;
-   translate: -50%;
+   left: 64%;
+   
    display: flex;
    justify-content: center;
    align-items: center;
-   width: 150px;
-   height: 50px;
-   gap: 5px;
-   text-decoration: none;
-   color: var(--text-color-second);
-   background: var(--color-white);
+   width: 130px;
+   height: 30px;
+   gap: 2px;
+   text-decoration:solid;
+   color: var(--color-white);
+   background: var(--text-color-third);
    border-radius: 30px;
-   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.25);
+   
 }
 .scroll-btn i{
-    font-size: 20px;
+    font-size: 30px;
 }
 
 /* ----- MAIN BOX ----- */
@@ -715,7 +713,6 @@ footer{
     font-size: 14px;
     margin-top: 10px;
 }
-
 
 /* ----- MEDIA QUERY == 1024px / RESPONSIVE ----- */
 @media only screen and (max-width: 1024px){
